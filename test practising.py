@@ -16,17 +16,6 @@ cleanup = str(input("\ndo you want to do?\n"))
 
 #tables
 if cleanup == "tables":
-        #starter
-    name = input("what is your full name\n")
-    if name == "tom guitart giralt":
-        print("Youre a  loser hehehhea\n")
-    elif name == "pol guitart giralt":  
-        print("sup creater\n")
-    elif name == "sergi guitart":
-        print("hi dad 🙂\n")
-    else:
-        print("hello i am ur tutor\n")
-
     #/end of starter
     many_times_tables = int(input("how many times do you want to do this? :"))
     for i in range(many_times_tables):
