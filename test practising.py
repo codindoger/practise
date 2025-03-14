@@ -39,19 +39,6 @@ elif cleanup == "words":
     filler_int = 10
     #/variable
 
-    #starter
-    name = input("what is your full name\n")
-    if name == "tom guitart giralt":
-        print("Youre a  loser hehehhea\n")
-    elif name == "pol guitart giralt":  
-        print("sup creater\n")
-    elif name == "sergi guitart":
-        print("hi dad 🙂\n")
-    else:
-        print("hello i am ur tutor\n")
-
-    #/end of starter
-
     #imports
     language = str(input("what are you doing english or irish "))
     many_times = int(input("how many times do you want to practise this (eg) 50 , 100, 200 :"))
